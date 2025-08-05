@@ -1,16 +1,12 @@
 # alphabets_recognition_app
+This project is a full-stack application for recognizing handwritten lowercase alphabet characters (a–z). Predicts both single and multiple characters accurately
 
-A new Flutter project.
+It consists of:
 
-## Getting Started
+Flask Backend: A Python-based API that uses a pre-trained Keras model to predict characters from image.
 
-This project is a starting point for a Flutter application.
+Flutter Frontend: A mobile app where users can draw characters, get predictions.
 
-A few resources to get you started if this is your first Flutter project:
+Training Script: A Python script to train the Keras model using a custom dataset, with data balancing and augmentation.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The system allows users to draw a letter, predict it using a neural network.
